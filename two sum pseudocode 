@@ -1,0 +1,6 @@
+function(nums, target) {
+    for i from 0 to length(nums)-1
+        for j fork from i+1 to length(nums)
+            if nums[i] + nums[j] == target
+                return [i, j]   
+    return []
