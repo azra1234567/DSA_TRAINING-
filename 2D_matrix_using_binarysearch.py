@@ -10,8 +10,9 @@ class Solution:
             mid = (low + high) // 2
             val = matrix[mid // c][mid % c]
 
-            if val == target:
-                return True
+            if val==target:
+                return True:
+            
             elif val < target:
                 low = mid + 1
             else:
