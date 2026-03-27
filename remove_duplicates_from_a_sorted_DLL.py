@@ -9,7 +9,7 @@ def removeDuplicates(head):
             current.next = dup.next
             if dup.next:
                 dup.next.prev = current
-            dup = None   # optional in Python
+            dup = None   
         else:
             current = current.next
 
