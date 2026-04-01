@@ -1,11 +1,3 @@
-# LeetCode 74. Search a 2D Matrix
-# Given an m x n matrix with the following properties:
-# 1. Integers in each row are sorted from left to right.
-# 2. The first integer of each row is greater than the last integer of the previous row.
-#
-# Write an efficient algorithm that searches for a value in this matrix.
-# The matrix has been treated as a flattened sorted list and a binary search
-# can be performed across the rows and columns in O(log(m*n)) time.
 
 from typing import List
 
